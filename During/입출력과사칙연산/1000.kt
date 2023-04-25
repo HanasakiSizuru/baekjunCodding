@@ -1,6 +1,8 @@
-import java.util.Scanner
+import java.util.*
 
 fun main() {
-    val sc = Scanner(System.`in`)
-    var num = sc.
+    val sc: Scanner = Scanner(System.`in`)
+    var a = sc.nextInt()
+    var b = sc.nextInt()
+    println(a+b)
 }
